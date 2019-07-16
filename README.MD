@@ -41,7 +41,7 @@ export default Store.use(UserInfo);
 Just use your custom hook in normal way. Only one state instance will be created when it is used in two different components.
 
 ```typescript
-import useUserInfo from './use-userinfo.ts
+import useUserInfo from './use-userinfo.ts'
 
 // A.tsx
 function Userpanel () {
