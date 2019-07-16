@@ -16,7 +16,7 @@ ReactDOM.render( <Store> <App /> </Store>, document.getElementById('app'));
 
 ### step 2
 
-use Store when export your custom hook. Everything is Done!
+use Store when exporting your custom hook.
 
 ```typescript
 import Store from './store.ts';
@@ -31,6 +31,8 @@ function UserInfo () {
 // use here.
 export default Store.use(UserInfo);
 ```
+
+### Everything is Done!
 
 ### example
 
