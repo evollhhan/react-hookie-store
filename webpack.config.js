@@ -84,6 +84,8 @@ module.exports = (env, argv) => {
     output: {
       path: PATH_DIST,
       filename: '[name].js',
+      libraryTarget: 'umd',
+      library: 'Store',
       publicPath: '/'
     },
     devtool: IS_PROD ? false : '#source-map',
