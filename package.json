@@ -1,5 +1,5 @@
 {
-  "name": "react-hooks-store",
+  "name": "react-hook-store",
   "version": "1.0.0",
   "description": "1 step to build your public state module with your custom hook.",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evollhhan/react-hooks-store.git"
+    "url": "git+https://github.com/evollhhan/react-hook-store.git"
   },
   "keywords": [
     "react",
@@ -20,9 +20,9 @@
   "license": "MIT",
   "types": "./global.d.ts",
   "bugs": {
-    "url": "https://github.com/evollhhan/react-hooks-store/issues"
+    "url": "https://github.com/evollhhan/react-hook-store/issues"
   },
-  "homepage": "https://github.com/evollhhan/react-hooks-store#readme",
+  "homepage": "https://github.com/evollhhan/react-hook-store#readme",
   "peerDependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
