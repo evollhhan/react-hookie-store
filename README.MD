@@ -10,7 +10,7 @@ wrap your app with Store.
 
 ```typescript
 // index.tsx
-import Store from './store.ts';
+import Store from 'react-hookie-store';
 
 ReactDOM.render( <Store> <App /> </Store>, document.getElementById('app'));
 ```
@@ -21,7 +21,7 @@ use Store when exporting your custom hook.
 
 ```typescript
 // use-userinfo.ts
-import Store from './store.ts';
+import Store from 'react-hookie-store';
 
 function UserInfo () {
   const [userinfo, update] = useState({ name: 'Alice' });
