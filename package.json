@@ -2,7 +2,7 @@
   "name": "react-hookie-store",
   "version": "1.0.0",
   "description": "1 step to build your public state module with your custom hook.",
-  "main": "dist/index.js",
+  "main": "dist/main.js",
   "scripts": {
     "dev": "webpack-dev-server --mode development --inline --progress --config webpack.config.js",
     "build": "node build/index.js"
