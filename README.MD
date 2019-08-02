@@ -1,6 +1,6 @@
-# React State
+# React Hooks Store
 
-> A simple way to make your custom hook to a public state.
+> 1 step to build your public state module with your custom hook.
 
 ## Usage
 

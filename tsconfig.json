@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"lib": [
+			"dom",
+			"es5",
+			"es2015",
+			"scripthost",
+			"dom.iterable"
+		],
+		"sourceMap": true,
+		"strict": true,
+		"alwaysStrict": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"resolveJsonModule": true,
+		"jsx": "react"
+	},
+	"include": [
+		"./src/**/*"
+	],
+	"exclude": []
+}
