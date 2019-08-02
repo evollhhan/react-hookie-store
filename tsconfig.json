@@ -12,6 +12,7 @@
 		"sourceMap": true,
 		"strict": true,
 		"alwaysStrict": true,
+		"allowJs": true,
 		"esModuleInterop": true,
 		"experimentalDecorators": true,
 		"emitDecoratorMetadata": true,

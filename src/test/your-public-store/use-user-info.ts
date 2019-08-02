@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Store from '../..';
+import Store from '../../store';
 
 function useUserInfo() {
   const [userInfo, setUserInfo] = useState({ name: 'Alice', age: 12 });

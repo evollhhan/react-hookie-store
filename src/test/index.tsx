@@ -1,4 +1,4 @@
-import Store from '../index';
+import Store from '../store';
 import React, { Fragment, useCallback } from 'react';
 import ReactDOM from 'react-dom';
 import useUserInfo from './your-public-store/use-user-info';

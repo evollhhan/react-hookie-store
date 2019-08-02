@@ -24,8 +24,7 @@
   },
   "homepage": "https://github.com/evollhhan/react-hookie-store#readme",
   "peerDependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "^16.8.6"
   },
   "files": [
     "dist",

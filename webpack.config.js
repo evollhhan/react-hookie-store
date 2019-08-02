@@ -79,19 +79,24 @@ module.exports = (env, argv) => {
   const IS_PROD = argv.mode === 'production';
   // Export Config
   return {
-    entry: IS_PROD ? './src/index.tsx' : './src/test/index.tsx',
+    entry: IS_PROD ? './src/index.ts' : './src/test/index.tsx',
     mode: argv.mode,
     output: {
       path: PATH_DIST,
       filename: '[name].js',
-      libraryTarget: 'umd',
-      library: 'Store',
-      publicPath: '/'
+      publicPath: '/',
+      ...IS_PROD ? {
+        libraryTarget: 'umd',
+        library: 'Store',
+      }: null
     },
     devtool: IS_PROD ? false : '#source-map',
     resolve: {
       extensions: ['.js', '.ts', '.tsx', '.json']
     },
+    externals: IS_PROD ? {
+      'react': 'commonjs react'
+    } : { },
     devServer,
     module: {
       rules: rules(IS_PROD)
