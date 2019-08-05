@@ -1,4 +1,4 @@
-# React Hooks Store
+# React Hookie Store
 
 > 1 step to build your public state module with your custom hook.
 
