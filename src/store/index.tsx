@@ -30,6 +30,13 @@ function NextProvider ({ index, children }: IProviderProps) {
  * Store
  */
 export default function Store (props: { children: any }) {
+  if (!props.children) {
+    throw new Error(`Store has no children. You can wrap your app under Store:
+    <Store>
+      <App />
+    </Store>
+    `);
+  }
   return (
     <NextProvider index={0}>{ props.children }</NextProvider>
   )
