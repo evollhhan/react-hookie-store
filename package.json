@@ -1,6 +1,6 @@
 {
   "name": "react-hookie-store",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "1 step to build your public state module with your custom hook.",
   "main": "dist/main.js",
   "scripts": {
