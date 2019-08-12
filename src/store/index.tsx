@@ -6,12 +6,12 @@ interface IProviderProps {
 }
 
 /**
- * Store 模块列表
+ * Store Provider
  */
 const Providers: Array<(props: IProviderProps) => JSX.Element> = [];
 
 /**
- * Context Provider 迭代器
+ * Context Provider Iterator
  */
 function NextProvider ({ index, children }: IProviderProps) {
   if (index < Providers.length) {
@@ -27,7 +27,7 @@ function NextProvider ({ index, children }: IProviderProps) {
 }
 
 /**
- * Store Element
+ * Store
  */
 export default function Store (props: { children: any }) {
   return (
@@ -36,7 +36,7 @@ export default function Store (props: { children: any }) {
 }
 
 /**
- * 创建 Store 模块
+ * use custom hook as a state module
  */
 Store.use = function<T>(useModule: T) {
   const context = createContext(null);
